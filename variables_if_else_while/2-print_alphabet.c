@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Prints the aplhabetic 
+ * main - Prints the aplhabetic
  * Return: Always (Success)
 */
 
 int main(void)
 {
 	char c;
-	
+
 	for (c = 'a'; c <= 'z'; c++)
 	putchar(c);
 	putchar('\n');
