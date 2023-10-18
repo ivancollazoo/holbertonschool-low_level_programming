@@ -1,27 +1,19 @@
 #include <stdio.h>
 
+/**
+ * main - Prints the aplhabetic 
+ * Return: Always (Success)
+*/
+
 int main(void)
 {
-    /* Declare a variable and initialize it with the first member of 
-       the range [a - z] 
-    */
+	char c;
+	
+	for (c = 'a'; c <= 'z'; c++)
+	putchar(c);
+	putchar('\n');
+	return (0);
 
-    char alphabet = 'a';
 
-     /* check to see if the current value of your variable is less than 
-         or the same as the last member (z) of the given range. While 
-         the value is less, go ahead and print the value 
-      */
 
-    while (alphabet <= 'z')
-    {
-        // print the value of the variable 
-        putchar(alphabet);
-
-        // increment the variable (ie: a becomes b)
-        alphabet++;
-    }
-
-    putchar('\n');
-    return (0);
 }
