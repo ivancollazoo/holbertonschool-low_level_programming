@@ -9,7 +9,8 @@
 */
 
 
-void printResult(int result) {
+int _islower(int c) 
+ {
     if (result) {
         putchar('1');
     } else {
@@ -28,7 +29,6 @@ int _islower(int c) {
 int main() {
     char character = 'a';
     int result = _islower(character);
-    printResult(result);
     
     return 0;
 }
