@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-    int r;
+    int r, _putchar(char c);
 
     r = _islower('H');
-    putchar(r + '0');
+    _putchar(r + '0');
     r = _islower('o');
-    putchar(r + '0');
+    _putchar(r + '0');
     r = _islower(108);
-    putchar(r + '0');
-    putchar('\n');
+    _putchar(r + '0');
+    _putchar('\n');
     return (0);
 }
