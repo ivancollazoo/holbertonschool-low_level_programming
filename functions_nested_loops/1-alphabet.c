@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - function that prints the alphabet, in lowercase, followed by a new line.
+ * print_alphabet - the alphabet, in lowercase, followed by a new line.
  * Return: void.
 */
 
@@ -20,5 +20,5 @@ void print_alphabet(void)
 }
 
 	putchar('\n');
-	
+
 }
