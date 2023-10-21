@@ -9,7 +9,7 @@
 
 int _isupper(int c)
 {
-	int c;
+	int;
 
 		if (c = 0)
 	{
