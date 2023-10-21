@@ -2,16 +2,20 @@
 #include <stdio.h>
 
 /**
- * int _abs - a function that computes the absolute value of an integer.
+ * _abs - a function that computes the absolute value of an integer.
  * Return: Always 0.
+ * @n: argument to be check
  */
 
-int _abs(int)
+int _abs(int n)
 {
-int x;
 
-	x = _abs (7);
-	printf("absolute value of x = %d\n", x);
-
-	return(0);
+	if (n > 0)
+	{
+		return (n);
+	}	
+	else
+	{	
+	return(n * -1);
+	}
 }	
