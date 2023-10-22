@@ -13,7 +13,7 @@ int mul(int a, int b)
 	for (a = 0; a < b; a++)
 
 	{
-		a = b + a;
+		b = a + a;
 	}
 
 	return (0);
