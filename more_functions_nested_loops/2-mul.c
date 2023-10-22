@@ -2,9 +2,9 @@
 
 /**
  * mul - Write a function that multiplies two integers.
- * Return: Always 0.
- * @a: results
- * @b: results
+ * Return: the product of a and b.
+ * @a: the first integer.
+ * @b: second integer.
  */
 
 int mul(int a, int b)
@@ -16,6 +16,6 @@ int mul(int a, int b)
 		b = a + a;
 	}
 
-	return (0);
-
+	return (a);
+	return (b);
 }
