@@ -3,7 +3,7 @@
 
 /**
  * swap_int - Write a function that swaps the values of two integers.
- *
+ *Return: Always 0.
  * @a: changing the value.
  * @b: changing the value.
  */
