@@ -5,7 +5,7 @@
  * followed by a new line.
  * str - is the string printed.
  *
- * */
+ */
 
 void puts_half(char *str)
 {
