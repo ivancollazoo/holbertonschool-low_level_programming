@@ -3,7 +3,7 @@
 /**
  * puts_half - Write a function that prints half of a string,
  * followed by a new line.
- * @str - is the string printed.
+ * @str: is the string printed.
  *
  */
 
