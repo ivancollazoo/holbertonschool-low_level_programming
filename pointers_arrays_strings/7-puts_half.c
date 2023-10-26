@@ -3,9 +3,9 @@
 /**
  * puts_half - Write a function that prints half of a string,
  * followed by a new line.
+ * str - is the string printed.
  *
- * @n: characters of the string, where n = (length_of_the_string - 1) / 2.
- */
+ * */
 
 void puts_half(char *str)
 {
