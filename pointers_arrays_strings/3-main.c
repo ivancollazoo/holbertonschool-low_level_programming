@@ -2,25 +2,17 @@
 #include <stdio.h>
 
 /**
- * print_array - print an array of integers
- * @a: an array of integers
- * @n: the number of elements to swap
+ * main - check the code
  *
- * Return: nothing.
+ * Return: Always 0.
  */
-void print_array(int *a, int n)
+int main(void)
 {
-    int i;
+    char *s = "hello, world";
+    char *f = "oleh";
+    unsigned int n;
 
-    i = 0;
-    while (i < n)
-    {
-        if (i != 0)
-        {
-            printf(", ");
-        }
-        printf("%d", a[i]);
-        i++;
-    }
-    printf("\n");
+    n = _strspn(s, f);
+    printf("%u\n", n);
+    return (0);
 }
